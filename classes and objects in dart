@@ -1,0 +1,24 @@
+// Define a class
+class Student {
+  // Properties
+  String name = "";
+  int age = 0;
+
+  // Method
+  void displayInfo() {
+    print("Name: $name");
+    print("Age: $age");
+  }
+}
+
+void main() {
+  // Create an object of Student class
+  Student student1 = Student();
+
+  // Assign values to properties
+  student1.name = "Yashika";
+  student1.age = 21;
+
+  // Call method
+  student1.displayInfo();
+}
