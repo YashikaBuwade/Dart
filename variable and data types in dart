@@ -1,0 +1,28 @@
+void main() {
+  // String type
+  String name = "Yashika";
+
+  // int type
+  int age = 21;
+
+  // double type
+  double height = 5.2;
+
+  // bool type
+  bool isStudent = true;
+
+  // var (automatically infers the type)
+  var city = "Pandhurna";
+
+  // dynamic (can change type later)
+  dynamic x = 100;
+  x = "Now I am a string";
+
+  // Print all values
+  print("Name: $name");
+  print("Age: $age");
+  print("Height: $height");
+  print("Is Student: $isStudent");
+  print("City: $city");
+  print("Dynamic value: $x");
+}
